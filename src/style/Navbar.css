@@ -1,0 +1,62 @@
+.Navbar-search {
+    border-radius: 20px;
+    border: 2px solid rgb(255, 0, 0);
+    padding: 15px;
+    width: 400px;
+    height: 15px;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .Navbar-logo {
+    color: red;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 15px;
+  }
+  
+  .Navbar-button {
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 90px;
+  }
+  
+  .Carousel {
+    position: relative;
+  }
+  
+  .Carousel-img {
+    height: 650px;
+  }
+  
+  .Movie-caption {
+    text-align: left;
+    inline-size: 550px;
+    margin-bottom: 150px;
+  }
+  
+  .Movie-caption-title {
+    font-size: 40px;
+    text-align: left;
+  }
+  
+  .Movie-caption-text {
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .Movie-caption-button {
+    margin-top: 10px;
+    margin-right: 400px;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 150px;
+  }
+  
+  .Header {
+    background-color: #282c34;
+  }
+  

@@ -1,0 +1,163 @@
+.banner {
+    height: 50vh;
+    position: relative;
+    background-position: center;
+    object-fit: cover;
+    opacity: 0.35;
+}
+
+.content{
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+}
+
+.movie-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    position: relative;
+    padding: 0 2rem;
+}
+
+.movie-info{
+    width: 70%;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.title{
+    font-size: 4rem;
+    line-height: 1;
+    color:#fff;
+    font-weight: 700;
+}
+
+.genres{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.genres-item{
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    background-color:#0f0f0f93;
+}
+
+.overview {
+    color: #fff;
+}
+
+.rating {
+    color: #fff;
+}
+
+.movie-info h6{
+    color: #fff;
+}
+
+.button-trailer{
+    border: 2px solid;
+    background-color: #790202;
+    color: #fff;
+    border-radius: 30px;
+    padding: 0.5rem 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-color: black;
+    position: relative;
+}
+
+.modal{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    inset: 0px;
+    z-index: 50;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.modal-content{
+    position: relative;
+    width: auto;
+    max-width: 48rem; /* 768px */
+    margin-top: 1.5rem; /* 24px */
+    margin-bottom: 1.5rem; /* 24px */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-header{
+    border-width: 0px;
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.modal-body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    padding: 8px;
+}
+
+.modal-body-button{
+    padding: 4px;
+    margin-left: auto;
+    background-color: transparent;
+    border-width: 0px;
+    color: white;
+    opacity: 1;
+    float: right;
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+    line-height: 1;
+    font-weight: 600;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.modal-body-span{
+    display: block;
+    background-color: transparent;
+    color: red;
+    opacity: 1;
+    height: 1.5rem; /* 24px */
+    width: 1.5rem; /* 24px */
+    font-size: 4rem; /* 24px */
+    line-height: 0rem; /* 32px */
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.youtube{
+    width: 100vh;
+    height: 60vh; 
+}
+
+.modal-end{
+    opacity: 0.5;
+    position: fixed;
+    inset: 0px;
+    z-index: 40;
+    background-color: black;
+}

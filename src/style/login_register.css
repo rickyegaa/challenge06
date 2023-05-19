@@ -1,0 +1,18 @@
+body {
+  background: rgb(195, 34, 34);
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 34, 1) 0%,
+    rgba(45, 0, 0, 1) 69%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 71.5vh;
+}
+.register {
+  margin-top: 10em;
+}
+
+.login {
+  margin-top: 10em;
+}
